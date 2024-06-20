@@ -47,7 +47,8 @@ public class Radio {
     public void setNextStationNumber() {
         if (currentStationNumber < maxStationNumber) {
             currentStationNumber = currentStationNumber + 1;
-        } else currentStationNumber = minStationNumber;
+        } else {
+currentStationNumber = minStationNumber;
     }
 
     public void setPrevStationNumber() {
